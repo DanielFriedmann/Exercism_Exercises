@@ -21,7 +21,7 @@
 
             if (i < takeDown - 1)
             {
-                verses.Add(""); // Leerzeile zwischen Versen
+                verses.Add("");
             }
         }
 
