@@ -2,7 +2,7 @@
 {
     public static bool IsScalene(double side1, double side2, double side3)
     {
-        if((IsIsosceles(side1,side2,side3) || IsEquilateral(side1,side2,side3)) || !isTriangle(side1,side2,side3))
+        if(IsIsosceles(side1,side2,side3) || IsEquilateral(side1,side2,side3) || !isTriangle(side1,side2,side3))
         {
             return false;
         }
