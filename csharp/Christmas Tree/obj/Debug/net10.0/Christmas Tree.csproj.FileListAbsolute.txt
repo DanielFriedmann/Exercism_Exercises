@@ -1,0 +1,15 @@
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\bin\Debug\net10.0\Christmas Tree.exe
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\bin\Debug\net10.0\Christmas Tree.deps.json
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\bin\Debug\net10.0\Christmas Tree.runtimeconfig.json
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\bin\Debug\net10.0\Christmas Tree.dll
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\bin\Debug\net10.0\Christmas Tree.pdb
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\obj\Debug\net10.0\Christmas Tree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\obj\Debug\net10.0\Christmas Tree.AssemblyInfoInputs.cache
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\obj\Debug\net10.0\Christmas Tree.AssemblyInfo.cs
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\obj\Debug\net10.0\Christmas Tree.csproj.CoreCompileInputs.cache
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\obj\Debug\net10.0\Christmas Tree.sourcelink.json
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\obj\Debug\net10.0\Christmas Tree.dll
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\obj\Debug\net10.0\refint\Christmas Tree.dll
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\obj\Debug\net10.0\Christmas Tree.pdb
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\obj\Debug\net10.0\Christmas Tree.genruntimeconfig.cache
+C:\Users\FriedmannDaniel\CsharpProjects\Exercism\Exercism_Exercises\csharp\Christmas Tree\obj\Debug\net10.0\ref\Christmas Tree.dll
