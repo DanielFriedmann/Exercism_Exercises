@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SplitSecondStopwatch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3ad1e55ce570d7a72073423ddd638c6e23c6bfc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5897ab69a179dac3c54dfa3adcecdfafd71f0e2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SplitSecondStopwatch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SplitSecondStopwatch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
