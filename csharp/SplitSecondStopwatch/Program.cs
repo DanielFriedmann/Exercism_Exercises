@@ -8,9 +8,13 @@
 public class SplitSecondStopwatch(TimeProvider time)
 {
     private StopwatchState state = StopwatchState.Ready;
+
     private DateTime startTime;
     private DateTime lapStartTime;
+
     private TimeSpan elapsed = TimeSpan.Zero;
+    private TimeSpan currentLapElapsed = TimeSpan.Zero;
+
     private readonly List<TimeSpan> laps = new();
 
     public StopwatchState State => state;
@@ -21,10 +25,10 @@ public class SplitSecondStopwatch(TimeProvider time)
         {
             if (state == StopwatchState.Running)
             {
-                return time.GetUtcNow().DateTime - lapStartTime;
+                return currentLapElapsed + (time.GetUtcNow().DateTime - lapStartTime);
             }
 
-            return TimeSpan.Zero;
+            return currentLapElapsed;
         }
     }
 
@@ -45,58 +49,60 @@ public class SplitSecondStopwatch(TimeProvider time)
 
     public void Start()
     {
+        if (state != StopwatchState.Stopped && state != StopwatchState.Ready) throw new InvalidOperationException("");
+
+        
         var now = time.GetUtcNow().DateTime;
 
         if (state == StopwatchState.Ready)
         {
-            startTime = now;
-            lapStartTime = now;
             elapsed = TimeSpan.Zero;
-            state = StopwatchState.Running;
-        }
-        else if (state == StopwatchState.Stopped)
-        {
-            startTime = now;
-            lapStartTime = now;
-            state = StopwatchState.Running;
+            currentLapElapsed = TimeSpan.Zero;
+            laps.Clear();
         }
 
-        else throw new InvalidOperationException("");
+        startTime = now;
+        lapStartTime = now;
+        state = StopwatchState.Running;
+
+
     }
 
     public void Stop()
     {
-        if (state == StopwatchState.Running)
-        {
-            var now = time.GetUtcNow().DateTime;
-            elapsed += now - startTime;
-            state = StopwatchState.Stopped;
-        }
+        if (state != StopwatchState.Running) throw new InvalidOperationException("");
 
-        else throw new InvalidOperationException("");
+
+        var now = time.GetUtcNow().DateTime;
+
+        elapsed += now - startTime;
+        currentLapElapsed += now - lapStartTime;
+
+        state = StopwatchState.Stopped;
     }
 
     public void Reset()
     {
-        if (state == StopwatchState.Stopped)
-        {
-            elapsed = TimeSpan.Zero;
-            laps.Clear();
-            state = StopwatchState.Ready;
-        }
+        if (state != StopwatchState.Stopped) throw new InvalidOperationException("");
 
-        else throw new InvalidOperationException("");
+
+        elapsed = TimeSpan.Zero;
+        currentLapElapsed = TimeSpan.Zero;
+        laps.Clear();
+
+        state = StopwatchState.Ready;
     }
 
     public void Lap()
     {
-        if (state == StopwatchState.Running)
-        {
-            var now = time.GetUtcNow().DateTime;
-            laps.Add(now - lapStartTime);
-            lapStartTime = now;
-        }
+        if (state != StopwatchState.Running) throw new InvalidOperationException("");
 
-        else throw new InvalidOperationException("");
+
+        var now = time.GetUtcNow().DateTime;
+
+        laps.Add(currentLapElapsed + (now - lapStartTime));
+
+        lapStartTime = now;
+        currentLapElapsed = TimeSpan.Zero;
     }
 }
