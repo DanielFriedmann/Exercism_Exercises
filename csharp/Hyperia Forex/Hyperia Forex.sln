@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hyperia Forex", "Hyperia Forex.csproj", "{FCE09BF7-1ACB-DB6E-879A-92088317BF55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCE09BF7-1ACB-DB6E-879A-92088317BF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE09BF7-1ACB-DB6E-879A-92088317BF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE09BF7-1ACB-DB6E-879A-92088317BF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE09BF7-1ACB-DB6E-879A-92088317BF55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A3DE06F-45F6-45C8-B286-36F7BB2B5CA8}
+	EndGlobalSection
+EndGlobal
