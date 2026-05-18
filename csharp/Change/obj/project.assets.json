@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FriedmannDaniel\\CsharpProjects\\Exercism\\Exercism_Exercises\\csharp\\Armstrong Numbers\\Armstrong Numbers.csproj",
-      "projectName": "Armstrong Numbers",
-      "projectPath": "C:\\Users\\FriedmannDaniel\\CsharpProjects\\Exercism\\Exercism_Exercises\\csharp\\Armstrong Numbers\\Armstrong Numbers.csproj",
+      "projectUniqueName": "C:\\Users\\FriedmannDaniel\\CsharpProjects\\Exercism\\Exercism_Exercises\\csharp\\Change\\Change.csproj",
+      "projectName": "Change",
+      "projectPath": "C:\\Users\\FriedmannDaniel\\CsharpProjects\\Exercism\\Exercism_Exercises\\csharp\\Change\\Change.csproj",
       "packagesPath": "C:\\Users\\FriedmannDaniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FriedmannDaniel\\CsharpProjects\\Exercism\\Exercism_Exercises\\csharp\\Armstrong Numbers\\obj\\",
+      "outputPath": "C:\\Users\\FriedmannDaniel\\CsharpProjects\\Exercism\\Exercism_Exercises\\csharp\\Change\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
